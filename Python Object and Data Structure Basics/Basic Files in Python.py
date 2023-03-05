@@ -1,0 +1,15 @@
+test = open('test.txt')
+print(test.read())
+print(test.seek(0))
+print(test.read())
+test = open('test.txt')
+contents = test.read()
+print(contents)
+test = open('test.txt')
+print(test.readlines())
+test.close()
+with open('test.txt') as my_new_file:
+    contents = my_new_file.read()
+print(contents)
+with open('test.txt',mode = 'r') as my_new_file:
+    contents = my_new_file.read()
