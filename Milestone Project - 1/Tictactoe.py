@@ -9,3 +9,5 @@ def display_board(board):
 
 test_board = ['#','X','O','X','O','X','O','X','O','X']
 display_board(test_board)
+
+#TODO: jatka tästä asenna IPython omalle koneelle. Video kohdasta 10.31
